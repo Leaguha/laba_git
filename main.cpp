@@ -20,7 +20,10 @@ int main()
     //ф-я 1:
 
     //ф-я 2:
+    for (const auto &a : textbooks)
+    {
 
+    }
     //ф-я 3:
 
     return 0;
