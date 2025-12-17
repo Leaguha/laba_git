@@ -18,7 +18,21 @@ struct Textbook
 int main()
 {
     //ф-я 1:
-
+    ifstream inFile("textbooks.txt");
+    if (!inFile.is_open())
+    {
+        wcout << "Error opening file!" << endl;
+        return 1;
+    }
+    vector<Textbook> textbooks;
+    while (!inFile.eof())
+    {
+        Textbook a;
+        inFile >> a.predmet;
+        inFile >> a.stran;
+        inFile >> a.razmer;
+        textbooks.push_back(a);
+    }
     //ф-я 2:
 
     //ф-я 3:
