@@ -24,6 +24,7 @@ int main()
         wcout << "Error opening file!" << endl;
         return 1;
     }
+    vector<Textbook> textbooks;
     //ф-я 2:
 
     //ф-я 3:
