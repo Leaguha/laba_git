@@ -18,7 +18,7 @@ struct Textbook
 int main()
 {
     //ф-я 1:
-
+    ifstream inFile("textbooks.txt");
     //ф-я 2:
 
     //ф-я 3:
