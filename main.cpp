@@ -25,6 +25,14 @@ int main()
         return 1;
     }
     vector<Textbook> textbooks;
+    while (!inFile.eof())
+    {
+        Textbook a;
+        inFile >> a.predmet;
+        inFile >> a.stran;
+        inFile >> a.razmer;
+        textbooks.push_back(a);
+    }
     //ф-я 2:
 
     //ф-я 3:
