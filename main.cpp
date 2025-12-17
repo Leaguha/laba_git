@@ -19,6 +19,11 @@ int main()
 {
     //ф-я 1:
     ifstream inFile("textbooks.txt");
+    if (!inFile.is_open())
+    {
+        wcout << "Error opening file!" << endl;
+        return 1;
+    }
     //ф-я 2:
 
     //ф-я 3:
