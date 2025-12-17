@@ -22,7 +22,9 @@ int main()
     //ф-я 2:
     for (const auto &a : textbooks)
     {
-
+        cout << "Predmet:" << a.predmet << endl;
+        cout << "Stran:" << a.stran << endl;
+        cout << "Razmer:" << a.razmer << endl;
     }
     //ф-я 3:
 
