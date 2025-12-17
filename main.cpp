@@ -28,6 +28,10 @@ int main()
     }
     //ф-я 3:
     ofstream file("file.bin", ios::binary);
+    for (const auto &a : textbooks)
+    {
+        file.write(reinterpret_cast<const char*>(&a), sizeof(Textbook));
+    }
     return 0;
 }
 
