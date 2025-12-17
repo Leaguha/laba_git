@@ -27,7 +27,7 @@ int main()
         cout << "Razmer:" << a.razmer << endl;
     }
     //ф-я 3:
-
+    ofstream file("file.bin", ios::binary);
     return 0;
 }
 
