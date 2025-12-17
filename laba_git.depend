@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1765989718 source:e:\c++\laba_git\laba_git\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<cstdint>
+	<iomanip>
+
